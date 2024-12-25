@@ -2,6 +2,8 @@ import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:todo_app_to_track_daily_r/app/app.locator.dart';
 import 'package:todo_app_to_track_daily_r/app/app.router.dart';
+import 'package:todo_app_to_track_daily_r/core/enums/dialog_type.dart';
+import 'package:todo_app_to_track_daily_r/core/enums/bottom_sheet_type.dart';
 
 class HomeViewModel extends BaseViewModel {
   final _navigationService = locator<NavigationService>();
